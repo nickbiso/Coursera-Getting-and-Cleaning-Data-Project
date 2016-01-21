@@ -33,3 +33,10 @@ This file describes the variables, the data, and any transformations or work tha
 * Change the column name of "subject" and "label" to the appropriate "activity" and "subject"
 * Combines the datasets "subject", "activitylabels" and "dat".
 
+######Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Adds a leading zero to all the single digit variable on the "subject" column of the tidy data frame.
+* Add a new column by concatenating the subject and activity column and name it SubAct.
+* Remove the subject and activity column.
+* Took the average of each variable for each activity and each subject using ddply.
+* Remade the subject and activity column by using substring on SubAct.
+* Rearranged the column of the Data Frame back to normal.
