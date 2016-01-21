@@ -7,6 +7,7 @@
   * 'TidyData.txt': which contain a Data Frame of 10299 observations and 68 variables. 
   * 'AverageData.txt': which contain a Data Frame of 180 observations and 68 variables
 * See CodeBook.md for more details
+
 ###### Explanation of the files:
 * 'features_info.txt': Shows information about the variables used on the feature vector.
 * 'features.txt': List of all features.
