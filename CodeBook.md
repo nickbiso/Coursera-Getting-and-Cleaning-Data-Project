@@ -9,10 +9,8 @@ This file describes the variables, the data, and any transformations or work tha
 ######Step 1: Merge the training and the test sets to create one data set
 * Reads the files "./test/X_test.txt" and "./train/X_train.txt" and assigns then to the variables "X_test" and "X_train" respectively.
 * Combines the X_test and X_train to a single data frame "dat".
-
 * Reads the files "./test/Y_test.txt" and "./train/Y_train.txt" and assigns then to the variables "Y_test" and "Y_train" respectively.
 * Combines the Y_test and Y_train to a single data frame "label".
-
 * Reads the files "./test/subject_test.txt" and "./train/subject_train.txt" and assigns then to the variables "subject_test" and "subject_train" respectively.
 * Combines the Y_test and subject_test to a single data frame "subject_train".
 
